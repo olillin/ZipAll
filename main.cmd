@@ -1,5 +1,3 @@
-echo off
-echo
+@echo off
 python main.py %*
-echo
 if errorlevel 1 pause
